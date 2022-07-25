@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE RoboticsSystem>
+<system>
+    <plugin name="8-bit" type="Color Conversion" version="0.1">
+        <color>8bits</color>
+        <slots/>
+    </plugin>
+    <plugin name="BGR" type="Color Conversion" version="0.1">
+        <color>bgr</color>
+        <slots/>
+    </plugin>
+    <plugin name="CAN Extractor0" type="CAN Extractor">
+        <defaultDirectoryPath>D:/Furrow Vision/DigitalAcre/Output/Data</defaultDirectoryPath>
+        <logNameBase>AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_185445_00097_FVC_split00001</logNameBase>
+        <autoNaming>1</autoNaming>
+        <loggerID>0</loggerID>
+        <cansniffOn>1</cansniffOn>
+        <canalyzerOn>1</canalyzerOn>
+        <maxBufferSize>65535</maxBufferSize>
+        <onlineMode>1</onlineMode>
+        <split>0</split>
+        <splitSize>1024</splitSize>
+    </plugin>
+    <plugin name="CLAHE" type="Image Filter" version="0.1">
+        <filterType>16</filterType>
+        <homogeneousKernelX>99</homogeneousKernelX>
+        <homogeneousKernelY>99</homogeneousKernelY>
+        <gaussianKernelX>99</gaussianKernelX>
+        <gaussianKernelY>99</gaussianKernelY>
+        <gaussianSigmaX>0</gaussianSigmaX>
+        <gaussianSigmaY>0</gaussianSigmaY>
+        <medianKernel>99</medianKernel>
+        <bilateralDiameter>99</bilateralDiameter>
+        <bilateralSigmaColor>0</bilateralSigmaColor>
+        <bilateralSigmaSpace>0</bilateralSigmaSpace>
+        <maskSlot>99</maskSlot>
+        <maskLabelIds/>
+        <morphologyIteration>99</morphologyIteration>
+        <morphologyKernelX>99</morphologyKernelX>
+        <morphologyKernelY>99</morphologyKernelY>
+        <structureElementtype>0</structureElementtype>
+        <blobSize>0</blobSize>
+        <oldValue>65535</oldValue>
+        <newValue>32767</newValue>
+        <clipLimit>3.5</clipLimit>
+        <tileWidth>16</tileWidth>
+        <tileHeight>16</tileHeight>
+        <filter2DString>[1.0, 1.0, 1.0] [1.0, 1.0, 1.0] [1.0, 1.0, 1.0] </filter2DString>
+        <filter2DDelta>0</filter2DDelta>
+        <minRangePercentile>2</minRangePercentile>
+        <maxRangePercentile>100</maxRangePercentile>
+        <slots/>
+        <useGpu>0</useGpu>
+    </plugin>
+    <plugin name="Contrast" type="Image Filter" version="0.1">
+        <filterType>18</filterType>
+        <homogeneousKernelX>3</homogeneousKernelX>
+        <homogeneousKernelY>99</homogeneousKernelY>
+        <gaussianKernelX>3</gaussianKernelX>
+        <gaussianKernelY>3</gaussianKernelY>
+        <gaussianSigmaX>0</gaussianSigmaX>
+        <gaussianSigmaY>0</gaussianSigmaY>
+        <medianKernel>3</medianKernel>
+        <bilateralDiameter>0</bilateralDiameter>
+        <bilateralSigmaColor>0</bilateralSigmaColor>
+        <bilateralSigmaSpace>0</bilateralSigmaSpace>
+        <maskSlot>0</maskSlot>
+        <maskLabelIds/>
+        <morphologyIteration>1</morphologyIteration>
+        <morphologyKernelX>0</morphologyKernelX>
+        <morphologyKernelY>0</morphologyKernelY>
+        <structureElementtype>0</structureElementtype>
+        <blobSize>0</blobSize>
+        <oldValue>0</oldValue>
+        <newValue>0</newValue>
+        <clipLimit>64</clipLimit>
+        <tileWidth>8</tileWidth>
+        <tileHeight>8</tileHeight>
+        <filter2DString>[1.0, 1.0, 1.0] [1.0, 1.0, 1.0] [1.0, 1.0, 1.0] </filter2DString>
+        <filter2DDelta>0</filter2DDelta>
+        <minRangePercentile>2</minRangePercentile>
+        <maxRangePercentile>99</maxRangePercentile>
+        <slots/>
+        <useGpu>0</useGpu>
+    </plugin>
+    <plugin name="Image Extractor0" type="Image Extractor">
+        <directoryPath>D:/Furrow Vision/CameraImage/Data/AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_185445_00097_FVC_split00001</directoryPath>
+        <baseName>image_sensorid_%ID_frame_%GN_ts_%TS</baseName>
+        <precisionTs>4</precisionTs>
+        <precisionGt>4</precisionGt>
+        <precisionSts>4</precisionSts>
+        <precisionHts>4</precisionHts>
+        <structType_32>0</structType_32>
+        <bmp_32>0</bmp_32>
+        <jpg_32>0</jpg_32>
+        <png_32>0</png_32>
+        <ppm_32>0</ppm_32>
+        <tiff_32>0</tiff_32>
+        <xbm_32>0</xbm_32>
+        <xpm_32>0</xpm_32>
+        <raw_32>0</raw_32>
+        <disparityText_32>0</disparityText_32>
+        <xyzText_32>0</xyzText_32>
+        <structType_33>0</structType_33>
+        <bmp_33>0</bmp_33>
+        <jpg_33>0</jpg_33>
+        <png_33>0</png_33>
+        <ppm_33>0</ppm_33>
+        <tiff_33>0</tiff_33>
+        <xbm_33>0</xbm_33>
+        <xpm_33>0</xpm_33>
+        <raw_33>0</raw_33>
+        <disparityText_33>0</disparityText_33>
+        <xyzText_33>0</xyzText_33>
+        <structType_124>1</structType_124>
+        <bmp_124>0</bmp_124>
+        <jpg_124>0</jpg_124>
+        <png_124>1</png_124>
+        <ppm_124>0</ppm_124>
+        <tiff_124>0</tiff_124>
+        <xbm_124>0</xbm_124>
+        <xpm_124>0</xpm_124>
+        <raw_124>0</raw_124>
+        <disparityText_124>0</disparityText_124>
+        <xyzText_124>0</xyzText_124>
+        <structType_10005>0</structType_10005>
+        <bmp_10005>0</bmp_10005>
+        <jpg_10005>0</jpg_10005>
+        <png_10005>0</png_10005>
+        <ppm_10005>0</ppm_10005>
+        <tiff_10005>0</tiff_10005>
+        <xbm_10005>0</xbm_10005>
+        <xpm_10005>0</xpm_10005>
+        <raw_10005>0</raw_10005>
+        <disparityText_10005>0</disparityText_10005>
+        <xyzText_10005>0</xyzText_10005>
+        <structType_10012>0</structType_10012>
+        <bmp_10012>0</bmp_10012>
+        <jpg_10012>0</jpg_10012>
+        <png_10012>0</png_10012>
+        <ppm_10012>0</ppm_10012>
+        <tiff_10012>0</tiff_10012>
+        <xbm_10012>0</xbm_10012>
+        <xpm_10012>0</xpm_10012>
+        <raw_10012>0</raw_10012>
+        <disparityText_10012>0</disparityText_10012>
+        <xyzText_10012>0</xyzText_10012>
+    </plugin>
+    <plugin name="Log Player0" type="Log Player">
+        <logName>D:/Furrow Vision/DigitalAcre/Data/AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_185445_00097_FVC_split00001.log</logName>
+        <isRealTimePlayback>0</isRealTimePlayback>
+    </plugin>
+    <plugin name="RGGB" type="Image Format Changer" version="0.1">
+        <slotNumber>0</slotNumber>
+        <imageFormat>507</imageFormat>
+    </plugin>
+    <plugin name="Rotate" type="Image Transform" version="0.1">
+        <operation>rotate</operation>
+        <parameter0>-90</parameter0>
+        <parameter1>0</parameter1>
+        <parameter2>0</parameter2>
+        <parameter3>0</parameter3>
+        <useGpu>0</useGpu>
+        <slots/>
+    </plugin>
+    <connection>
+        <link from="8-bit" to="Rotate"/>
+        <link from="BGR" to="8-bit"/>
+        <link from="CLAHE" to="BGR"/>
+        <link from="Contrast" to="CLAHE"/>
+        <link from="Log Player0" to="CAN Extractor0"/>
+        <link from="Log Player0" to="RGGB"/>
+        <link from="RGGB" to="Contrast"/>
+        <link from="Rotate" to="Image Extractor0"/>
+    </connection>
+    <custom>
+        <gui>
+            <position name="8-bit" x="331" y="209"/>
+            <position name="BGR" x="253" y="209"/>
+            <position name="CAN Extractor0" x="79" y="95"/>
+            <position name="CLAHE" x="170" y="208"/>
+            <position name="Contrast" x="78" y="207"/>
+            <position name="Image Extractor0" x="526" y="205"/>
+            <position name="Log Player0" x="-105" y="205"/>
+            <position name="RGGB" x="-11" y="206"/>
+            <position name="Rotate" x="411" y="213"/>
+        </gui>
+    </custom>
+</system>

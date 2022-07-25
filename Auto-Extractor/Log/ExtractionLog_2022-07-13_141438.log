@@ -1,0 +1,39 @@
+Starting Log of Image Extraction 
+The log started at 2022-07-13 14:14:38
+The number of multi process enabled : 8 
+D:\Furrow Vision\DigitalAcre\CanLog
+Runtime of the program is 0:00:00
+The number of multi process enabled : 8 
+D:\Furrow Vision\DigitalAcre\CanLog
+Runtime of the program is 0:00:00
+The number of multi process enabled : 8 
+D:\Furrow Vision\DigitalAcre\Test\CanLog
+Runtime of the program is 0:00:00
+The number of multi process enabled : 8 
+D:\Furrow Vision\DigitalAcre\Data
+07/13/2022 14:20:58 : Running for file D:/Furrow Vision/DigitalAcre/Data\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00008.log
+07/13/2022 14:20:58 : Running for file D:/Furrow Vision/DigitalAcre/Data\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00009.log
+07/13/2022 14:20:58 : Running for file D:/Furrow Vision/DigitalAcre/Data\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00010.log
+07/13/2022 14:20:58 : Running for file D:/Furrow Vision/DigitalAcre/Data\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00011.log
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\envs\PythonProject_Furrow\lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\ProgramData\Anaconda3\envs\PythonProject_Furrow\lib\multiprocessing\pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "D:\Furrow Vision\PythonProject_Furrow\Auto-Extractor\Extractor.py", line 177, in parprocfun
+    os.remove(imextXML_temp)
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'ImageCanExtractionFurrowVision_0713_56250.xml'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Furrow Vision\PythonProject_Furrow\Auto-Extractor\Extractor.py", line 216, in <module>
+    p.map(parprocfun, files)
+  File "C:\ProgramData\Anaconda3\envs\PythonProject_Furrow\lib\multiprocessing\pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "C:\ProgramData\Anaconda3\envs\PythonProject_Furrow\lib\multiprocessing\pool.py", line 771, in get
+    raise self._value
+FileNotFoundError: [Errno 2] The system cannot find the file specified: 'ImageCanExtractionFurrowVision_0713_56250.xml'

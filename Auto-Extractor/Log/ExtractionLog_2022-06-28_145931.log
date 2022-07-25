@@ -1,0 +1,244 @@
+Starting Log of Image Extraction 
+The log started at 2022-06-28 14:59:31
+The number of multi process enabled : 4 
+T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData
+06/28/2022 14:59:33 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_174725_00043_FVC_split00001.log
+06/28/2022 14:59:33 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_182341_00071_FVC_split00002.log
+06/28/2022 14:59:33 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00006.log
+06/28/2022 14:59:33 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_180219_00053_FVC_split00001.log
+06/28/2022 16:03:20 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_180402_00056_FVC_split00001.log
+06/28/2022 16:42:35 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_173941_00041_FVC_split00001.log
+06/28/2022 16:51:58 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_171359_00023_FVC_split00001.log
+06/28/2022 16:51:58 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00019.log
+06/28/2022 17:13:24 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_185445_00097_FVC_split00002.log
+06/28/2022 17:25:01 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_183553_00082_FVC_split00001.log
+06/28/2022 17:31:52 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_182521_00074_FVC_split00001.log
+06/28/2022 17:31:52 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_112557_00004_FVC_split00001.log
+06/28/2022 18:05:32 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00018.log
+06/28/2022 18:07:30 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00001.log
+06/28/2022 18:12:05 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_172439_00028_FVC_split00001.log
+06/28/2022 18:33:59 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_172720_00034_FVC_split00001.log
+06/28/2022 19:16:11 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_184433_00089_FVC_split00002.log
+06/28/2022 19:20:43 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_191654_00013_FVC_split00001.log
+06/28/2022 19:44:31 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00010.log
+06/28/2022 19:47:23 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_181518_00066_FVC_split00001.log
+06/28/2022 19:50:46 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_172346_00027_FVC_split00002.log
+06/28/2022 20:03:31 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_184804_00096_FVC_split00001.log
+06/28/2022 20:05:16 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00008.log
+06/28/2022 20:16:59 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_181633_00069_FVC_split00001.log
+06/28/2022 21:09:31 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_175132_00045_FVC_split00001.log
+06/28/2022 21:27:43 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_111616_00001_FVC_split00001.log
+06/28/2022 21:37:42 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_183354_00079_FVC_split00001.log
+06/28/2022 21:58:29 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_171420_00024_FVC_split00001.log
+06/28/2022 21:59:33 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_173858_00039_FVC_split00001.log
+06/28/2022 22:13:31 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_163906_00011_FVC_split00001.log
+06/28/2022 22:26:14 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00017.log
+06/28/2022 22:39:48 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_171501_00025_FVC_split00001.log
+06/28/2022 23:04:24 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_190654_00003_FVC_split00001.log
+06/28/2022 23:26:08 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_164120_00016_FVC_split00001.log
+06/28/2022 23:39:28 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_183727_00086_FVC_split00001.log
+06/28/2022 23:51:25 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_191421_00008_FVC_split00001.log
+06/29/2022 00:04:47 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_191539_00010_FVC_split00001.log
+06/29/2022 00:20:34 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_190812_00006_FVC_split00001.log
+06/29/2022 00:57:52 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_172507_00029_FVC_split00001.log
+06/29/2022 01:00:32 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_173803_00037_FVC_split00001.log
+06/29/2022 01:35:31 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_183526_00081_FVC_split00001.log
+06/29/2022 01:40:47 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_174017_00042_FVC_split00001.log
+06/29/2022 01:57:49 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_191713_00014_FVC_split00001.log
+06/29/2022 01:57:57 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_185606_00098_FVC_split00002.log
+06/29/2022 02:24:37 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_163714_00008_FVC_split00001.log
+06/29/2022 02:41:24 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00007.log
+06/29/2022 02:46:00 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_184351_00088_FVC_split00001.log
+06/29/2022 03:20:00 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_182709_00078_FVC_split00001.log
+06/29/2022 03:27:10 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_173645_00036_FVC_split00001.log
+06/29/2022 03:42:32 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_171141_00018_FVC_split00001.log
+06/29/2022 04:27:22 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_182628_00077_FVC_split00001.log
+06/29/2022 04:31:08 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_185606_00098_FVC_split00001.log
+06/29/2022 05:16:36 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00015.log
+06/29/2022 05:24:41 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_175332_00050_FVC_split00001.log
+06/29/2022 05:50:24 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_174811_00044_FVC_split00001.log
+06/29/2022 06:15:59 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00004.log
+06/29/2022 06:57:16 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_184615_00092_FVC_split00001.log
+06/29/2022 07:00:47 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_191512_00009_FVC_split00001.log
+06/29/2022 07:48:22 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_182456_00073_FVC_split00001.log
+06/29/2022 07:59:55 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_163746_00009_FVC_split00002.log
+06/29/2022 08:06:06 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_181444_00065_FVC_split00001.log
+06/29/2022 08:07:08 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_173918_00040_FVC_split00001.log
+06/29/2022 08:13:32 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00002.log
+06/29/2022 08:42:30 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_183650_00084_FVC_split00001.log
+06/29/2022 09:05:37 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00003.log
+06/29/2022 09:18:07 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_172309_00026_FVC_split00001.log
+06/29/2022 09:21:42 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_144743_00005_FVC_split00001.log
+06/29/2022 09:56:03 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_164002_00013_FVC_split00001.log
+06/29/2022 10:03:35 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_172346_00027_FVC_split00001.log
+06/29/2022 10:16:36 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_171311_00021_FVC_split00001.log
+06/29/2022 10:34:49 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00021.log
+06/29/2022 10:36:13 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_172638_00033_FVC_split00001.log
+06/29/2022 10:55:17 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_180553_00060_FVC_split00001.log
+06/29/2022 11:30:26 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_175158_00046_FVC_split00001.log
+06/29/2022 11:38:59 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_182341_00071_FVC_split00001.log
+06/29/2022 11:38:59 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_184723_00095_FVC_split00001.log
+06/29/2022 11:38:59 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_184433_00089_FVC_split00001.log
+06/29/2022 12:59:39 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_184522_00090_FVC_split00001.log
+06/29/2022 13:12:03 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_175313_00049_FVC_split00001.log
+06/29/2022 13:14:52 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_163028_00007_FVC_split00001.log
+06/29/2022 13:39:20 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00014.log
+06/29/2022 13:46:53 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_163930_00012_FVC_split00001.log
+06/29/2022 13:50:29 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00012.log
+06/29/2022 14:50:31 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_172621_00032_FVC_split00001.log
+06/29/2022 15:10:21 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00013.log
+06/29/2022 15:22:12 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_163839_00010_FVC_split00001.log
+06/29/2022 16:08:04 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_185712_00099_FVC_split00001.log
+06/29/2022 16:27:03 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_191337_00007_FVC_split00001.log
+06/29/2022 16:57:46 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_190713_00004_FVC_split00001.log
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\envs\PythonProject_Furrow\lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\ProgramData\Anaconda3\envs\PythonProject_Furrow\lib\multiprocessing\pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "D:\Furrow Vision\PythonProject_Furrow\Auto-Extractor\Extractor.py", line 177, in parprocfun
+    os.remove(imextXML_temp)
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'ImageCanExtractionFurrowVision_45312.xml'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Furrow Vision\PythonProject_Furrow\Auto-Extractor\Extractor.py", line 216, in <module>
+    p.map(parprocfun, files)
+  File "C:\ProgramData\Anaconda3\envs\PythonProject_Furrow\lib\multiprocessing\pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "C:\ProgramData\Anaconda3\envs\PythonProject_Furrow\lib\multiprocessing\pool.py", line 771, in get
+    raise self._value
+FileNotFoundError: [Errno 2] The system cannot find the file specified: 'ImageCanExtractionFurrowVision_45312.xml'
+The number of multi process enabled : 8 
+T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_180512_00059_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_174725_00043_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_172439_00028_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_180402_00056_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_184433_00089_FVC_split00002.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_112803_00002_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_185445_00097_FVC_split00002.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_191654_00013_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_171246_00020_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_172720_00034_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_183553_00082_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_173829_00038_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_184804_00096_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_182341_00071_FVC_split00002.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00010.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00008.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_171220_00019_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00006.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00019.log already exists.The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_175132_00045_FVC_split00001.log already exists.
+
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_183354_00079_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_171420_00024_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_180219_00053_FVC_split00001.log already exists.
+07/03/2022 13:23:56 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_180311_00054_FVC_split00001.log
+07/03/2022 13:23:56 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_153457_00006_FVC_split00001.log
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_173941_00041_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_182521_00074_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00017.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_164120_00016_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_171359_00023_FVC_split00001.log already exists.
+07/03/2022 13:23:56 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_191603_00011_FVC_split00001.log
+07/03/2022 13:23:56 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_182610_00076_FVC_split00001.log
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_181518_00066_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_112557_00004_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_190812_00006_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_172346_00027_FVC_split00002.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_181633_00069_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00018.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_183526_00081_FVC_split00001.log already exists.
+07/03/2022 13:23:56 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_171048_00017_FVC_split00001.log
+07/03/2022 13:23:56 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_172533_00030_FVC_split00001.log
+07/03/2022 13:23:56 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_181420_00064_FVC_split00001.log
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_111616_00001_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_173858_00039_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_171501_00025_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_191421_00008_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_174017_00042_FVC_split00001.log already exists.
+07/03/2022 13:23:56 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_181301_00062_FVC_split00002.log
+07/03/2022 13:37:53 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00009.log
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_163906_00011_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_190654_00003_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_183727_00086_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_173803_00037_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_185606_00098_FVC_split00002.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00007.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_182628_00077_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_174811_00044_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_182456_00073_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_183650_00084_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_191539_00010_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_172507_00029_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_191713_00014_FVC_split00001.log already exists.
+07/03/2022 13:37:53 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_183807_00087_FVC_split00001.log
+07/03/2022 14:04:30 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_164020_00014_FVC_split00001.log
+07/03/2022 14:26:34 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_173645_00036_FVC_split00002.log
+07/03/2022 14:27:49 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_183435_00080_FVC_split00002.log
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_163714_00008_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_182709_00078_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_185606_00098_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00004.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_173918_00040_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00003.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_180553_00060_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_184723_00095_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_184522_00090_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00012.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_184351_00088_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_171141_00018_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00015.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_191512_00009_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_181444_00065_FVC_split00001.log already exists.
+07/03/2022 14:27:49 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_175254_00048_FVC_split00001.log
+07/03/2022 14:41:42 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_191421_00008_FVC_split00002.log
+07/03/2022 14:42:31 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_183707_00085_FVC_split00001.log
+07/03/2022 14:54:39 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_181222_00061_FVC_split00001.log
+07/03/2022 14:56:11 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00016.log
+07/03/2022 14:56:55 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_190730_00005_FVC_split00001.log
+07/03/2022 15:10:27 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_175412_00051_FVC_split00001.log
+07/03/2022 15:18:51 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_175224_00047_FVC_split00001.log
+07/03/2022 15:29:14 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00011.log
+07/03/2022 16:07:07 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_182431_00072_FVC_split00001.log
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_173645_00036_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_175332_00050_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_184615_00092_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_163746_00009_FVC_split00002.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00002.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_172346_00027_FVC_split00001.log already exists.
+07/03/2022 16:11:15 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00005.log
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_172309_00026_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_171311_00021_FVC_split00001.log already exists.
+07/03/2022 16:39:44 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_172601_00031_FVC_split00001.log
+07/03/2022 16:46:45 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_182253_00070_FVC_split00001.log
+07/03/2022 17:03:26 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_181301_00062_FVC_split00001.log
+07/03/2022 17:19:33 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_191753_00015_FVC_split00001.log
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_144743_00005_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_164002_00013_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00021.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_172638_00033_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_184433_00089_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_175313_00049_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_163930_00012_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_172621_00032_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_163839_00010_FVC_split00001.log already exists.
+07/03/2022 17:21:13 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_185712_00099_FVC_split00001.log
+07/03/2022 17:35:36 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_191636_00012_FVC_split00001.log
+07/03/2022 17:46:41 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_180341_00055_FVC_split00001.log
+07/03/2022 17:46:41 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_190407_00001_FVC_split00001.log
+07/03/2022 17:46:41 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_173606_00035_FVC_split00001.log
+07/03/2022 17:46:41 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_164039_00015_FVC_split00001.log
+07/03/2022 17:46:41 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_191337_00007_FVC_split00001.log
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_175158_00046_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_182341_00071_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_163028_00007_FVC_split00001.log already exists.
+The folder for T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00014.log already exists.
+07/03/2022 17:46:41 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-13_113137_00003_FVC_split00013.log
+07/03/2022 19:26:29 : Running for file T:\current\Projects\Deere\CPSI\2022\Digital Acre\2022_DigitalAcre_FurrowVisionData\Logger_c4-00-ad-51-28-9a_2022-05-16_171341_00022_FVC_split00001.log

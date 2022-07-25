@@ -1,0 +1,21 @@
+Starting Log of Image Extraction 
+The log started at 2022-06-28 10:36:28
+Reading the data list
+Successfully read data list.
+Reading the master XML File
+Successful reading the Master XML file to memory.
+The number of multi process enabled : 2 
+D:\Furrow Vision\DigitalAcre\Data
+Reading the data list
+Successfully read data list.
+Reading the data list
+Successfully read data list.
+Reading the master XML File
+Successful reading the Master XML file to memory.
+Reading the master XML File
+Successful reading the Master XML file to memory.
+The new directory generated = D:\Furrow Vision\CameraImage\Data\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_160721_00007_FVC_split00001
+The new directory generated = D:\Furrow Vision\CameraImage\Data\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_185445_00097_FVC_split00001
+06/28/2022 10:38:41 : Running for file D:/Furrow Vision/DigitalAcre/Data\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_160721_00007_FVC_split00001.log
+06/28/2022 10:38:41 : Running for file D:/Furrow Vision/DigitalAcre/Data\AmesISU_Harold_DigitalAcre_c4-00-ad-51-28-9a_2022-05-16_185445_00097_FVC_split00001.log
+Runtime of the program is 0:02:28
