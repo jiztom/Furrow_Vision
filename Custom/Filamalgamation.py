@@ -12,7 +12,7 @@ report_directory = pt.Path(r'F:\Reports')
 output_folder = pt.Path(r'F:')
 
 # Output file name
-output_file_name = r'Overall_merged_data'
+output_file_name = r'Overall_merged_data_07-26'
 
 # ----------------------------------------------------------------------------------------------------------
 if file_type == 'EXCEL':
