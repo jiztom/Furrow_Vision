@@ -37,6 +37,8 @@ for file in data_files:
     data_list.append(data)
 
 result = pd.concat(data_list)
+result.latitude.fillna(result.lattitude, inplace=True)
+result.drop('lattitude', axis=1, inplace=True)
 
 if file_type == 'EXCEL':
     result.to_excel(destination)

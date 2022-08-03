@@ -15,9 +15,23 @@ import shutil
 import pandas as pd
 import glob
 from datetime import date
+from PIL import Image
 
 today = date.today()
 date_print = today.strftime("%b-%d-%Y")
+
+
+def calculate_brightness(image):
+    greyscale_image = image.convert('L')
+    histogram = greyscale_image.histogram()
+    pixels = sum(histogram)
+    brightness = scale = len(histogram)
+
+    for index in range(0, scale):
+        ratio = histogram[index] / pixels
+        brightness += ratio * (-scale + index)
+
+    return 1 if brightness == 255 else brightness / scale
 
 
 # Returns latitude and longitude from CAN data row in format (example)
@@ -35,8 +49,15 @@ def absolute_coordinate(data):
 # Can data format (example)
 # 0.000000 1620152387.412609 0  14FF641Cx       Rx   d 8 66 FE 0C 9E 29 9B FE 02
 def find_long_and_lat(data1, data2, timefromimage):
+    '''
+
+    :param data1: previous data
+    :param data2: current data
+    :param timefromimage: time to predict.
+    :return:
+    '''
     # Handles case where only one timestamp was found
-    if data2 == 0:
+    if data2[0] == 0:
         return absolute_coordinate(data1)
 
     # Find the latitude and longitude from hex values
@@ -69,16 +90,16 @@ if __name__ == "__main__":
     GPS_offset = 4
     print('------------Start of Program:------------\n')
 
-    Base_image_directory = pt.Path(r'E:\2022_DigitalAcre_FurrowVisionData')
+    Base_image_directory = pt.Path(r'F:\TestData\CanData')
 
-    processed_CANfile_directory = pt.Path(r'E:\CanSniff\2022_DigitalAcre_FurrowVisionData')
+    processed_CANfile_directory = pt.Path(r'F:\TestData\CanSniff')
 
-    new_images_directory = pt.Path(r'F:\GPSProcessed')
+    new_images_directory = pt.Path(r'F:\TestData\GPSProcessed')
 
-    report_directory = pt.Path(r'F:\Reports')
+    report_directory = pt.Path(r'F:\TestData\Report')
 
     # Directory for test
-    Base_directory_test = pt.Path(r'E:')
+    Base_directory_test = pt.Path(r'F:')
 
     # Get all sub-folder paths in the image folder
     image_folder_list = os.listdir(Base_image_directory)
@@ -112,7 +133,7 @@ if __name__ == "__main__":
 
     info_list = []
 
-    for i,folder in enumerate(data_dict2):
+    for i, folder in enumerate(data_dict2):
         file_log = []
         image_paths = list((Base_image_directory / folder).rglob('*.png'))  # List with all image absolute paths
         image_paths.sort()
@@ -142,51 +163,62 @@ if __name__ == "__main__":
                 image_time = float(image_data[-1])  # Extract image Unix time (-4 removes .png)
                 camera_number = image_data[2]
 
+                image_pil = Image.open(Base_image_directory / folder / image_name)
+                brightness = calculate_brightness(image_pil)
+
                 # Algorithm to find closest pair of numbers from timestamp
                 current_num = 0.0
                 last_visited = 0
                 latitude = 0
                 longitude = 0
                 GPS_message = 'NULL'
-                last_line = ''
+                last_line = {}
                 # break
-
-                for j, line in enumerate(lines):
+                line_track = 0
+                # for j, line in enumerate(lines):
+                for j in range(line_track, len(lines)):
+                    line = lines[j]
                     if r'FEF3' in line[2][-7:-3]:
                         GPS_number = int(line[1])
                         GPS_message = line[2]
                         current_num = float(line[0]) + unix_timestamp
                         temp_number = int(camera_number) + GPS_offset
+                        data_temp_line = [str(current_num)] + line[1:]
                         if temp_number == GPS_number:
                             if current_num >= image_time:
                                 if last_visited == 0:
-                                    latitude, longitude = find_long_and_lat(line, 0, image_time)
+                                    latitude, longitude = find_long_and_lat(data_temp_line, [0], image_time)
                                 else:
-                                    latitude, longitude = find_long_and_lat(last_line, line,
+                                    latitude, longitude = find_long_and_lat(last_line[GPS_number], data_temp_line,
                                                                             image_time)
                                 if debug:
                                     print(f"Camera {camera_number} with {GPS_number} has matched in line {j}.")
                                     print(f"Unix: {current_num}, Image Time:{image_time}, GPS Header: {line[2]}, "
                                           f"lat: {latitude}, long: {longitude}")
-                                last_visited = j
+                                # last_visited = j
+                                line_track = j
                                 break
                             else:
-                                last_line = line
+                                last_line[GPS_number] = data_temp_line
                     else:
                         continue
+                if brightness > 0.25:
+                    # print(f"{file}:{brightness}. Moving to target")
+                    shutil.copy2(image, new_location / image_name)
 
-                shutil.copy2(image, new_location / image_name)
+                    image_new_name = image_name.replace('.png', '') + '_GPS_' + format(latitude, '.10f') + '_' + format(
+                        longitude, '.10f') + '.png'
 
-                image_new_name = image_name.replace('.png', '') + '_GPS_' + format(latitude, '.10f') + '_' + format(
-                    longitude, '.10f') + '.png'
+                    os.rename(new_location / image_name, new_location / image_new_name)
 
-                os.rename(new_location / image_name, new_location / image_new_name)
+                    info = {'log name': log_name, 'image name': image_new_name, 'image timestamp': image_time,
+                            'camera number': camera_number, 'latitude': format(latitude, '.10f'),
+                            'longitude': format(longitude, '.10f'), 'GPS Header': GPS_message, 'GPS number': GPS_number}
+                    info_list.append(info)
+                    file_log.append(info)
+                else:
+                    print(f"Dark Image : {brightness}", end='\r')
 
-                info = {'log name': log_name, 'image name': image_new_name, 'image timestamp': image_time,
-                        'camera number': camera_number, 'latitude': format(latitude, '.10f'),
-                        'longitude': format(longitude, '.10f'), 'GPS Header': GPS_message, 'GPS number': GPS_number}
-                info_list.append(info)
-                file_log.append(info)
             print(f'Saving report for {folder} at {report_directory / folder}.csv')
             temp_df = pd.DataFrame(file_log)
             temp_df.to_csv(report_directory / f'{folder}.csv')
