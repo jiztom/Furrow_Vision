@@ -2,7 +2,7 @@
 
     Author          : Jiztom Kavalakkatt Francis
     Date Created    : 07/08/2022
-    Last Modified   : 07/08/2022
+    Last Modified   : 09/04/2022
     Python Version  : 3.10.5
     Description     : This script allows for interpolating the image with the GPS data.
 """
@@ -48,7 +48,7 @@ def absolute_coordinate(data):
 # Returns Longitude and Latitude interpolation from two rows from CAN data with a given image timestamp
 # Can data format (example)
 # 0.000000 1620152387.412609 0  14FF641Cx       Rx   d 8 66 FE 0C 9E 29 9B FE 02
-def find_long_and_lat(data1, data2, timefromimage):
+def find_long_and_lat(data1, data2, imagetime, unix_timestamp):
     '''
 
     :param data1: previous data
@@ -56,6 +56,8 @@ def find_long_and_lat(data1, data2, timefromimage):
     :param timefromimage: time to predict.
     :return:
     '''
+    poly_fit_value = 1
+    timefromimage = imagetime #- unix_timestamp
     # Handles case where only one timestamp was found
     if data2[0] == 0:
         return absolute_coordinate(data1)
@@ -63,15 +65,19 @@ def find_long_and_lat(data1, data2, timefromimage):
     # Find the latitude and longitude from hex values
     lat1, long1 = absolute_coordinate(data1)
     lat2, long2 = absolute_coordinate(data2)
+    # print(f"lat1 : {lat1}, long1: {long1}")
+    # print(f"lat2 : {lat2}, long1: {long2}")
+
+    time_stamps = [float(data1[1]) + unix_timestamp, float(data2[1]) + unix_timestamp]
 
     # Polynomial fit
     latitudes = [lat1, lat2]
-    time_stamps = [float(data1[1]), float(data2[1])]
-    coefficients = np.polyfit(time_stamps, latitudes, 1)
+
+    coefficients = np.polyfit(time_stamps, latitudes, poly_fit_value)
     lat_equation = np.poly1d(coefficients)
 
     longitudes = [long1, long2]
-    coefficients = np.polyfit(time_stamps, longitudes, 1)
+    coefficients = np.polyfit(time_stamps, longitudes, poly_fit_value)
     long_equation = np.poly1d(coefficients)
 
     # Find image coordinate
@@ -80,7 +86,7 @@ def find_long_and_lat(data1, data2, timefromimage):
 
     # print("Latitude and longitude 1: ", lat1, long1)
     # print("Latitude and longitude 2: ", lat2, long2)
-
+    # print(image_lat, image_long)
     return image_lat, image_long
 
 
@@ -135,6 +141,8 @@ if __name__ == "__main__":
 
     for i, folder in enumerate(data_dict2):
         file_log = []
+        line_track = [0, 0, 0, 0]
+        image_init = [0, 0, 0, 0]
         image_paths = list((Base_image_directory / folder).rglob('*.png'))  # List with all image absolute paths
         image_paths.sort()
 
@@ -148,6 +156,7 @@ if __name__ == "__main__":
         lines = []
         date_data = []
         GPS_number = 0
+        last_line = [0, 0, 0, 0]
         with open(processed_CANfile_directory / log_name, 'r') as myfile:
             for line in myfile:
                 if line[2].isdigit():  # Makes sure that we are only reading data (ignoring headers)
@@ -157,26 +166,25 @@ if __name__ == "__main__":
         if not os.path.isdir(new_location):
             print(f"Processing the files in {folder}")
             pt.Path(new_location).mkdir(parents=True, exist_ok=True)
-            for image in image_paths:
+            for img_num, image in enumerate(image_paths):
                 image_name = image.name  # Extract image name as string
                 image_data = image_name.replace('.png', '').split('_')
                 image_time = float(image_data[-1])  # Extract image Unix time (-4 removes .png)
-                camera_number = image_data[2]
+                camera_number = int(image_data[2])
 
                 image_pil = Image.open(Base_image_directory / folder / image_name)
                 brightness = calculate_brightness(image_pil)
 
                 # Algorithm to find closest pair of numbers from timestamp
                 current_num = 0.0
-                last_visited = 0
                 latitude = 0
                 longitude = 0
                 GPS_message = 'NULL'
-                last_line = {}
+
                 # break
-                line_track = 0
+
                 # for j, line in enumerate(lines):
-                for j in range(line_track, len(lines)):
+                for j in range(line_track[camera_number - 1], len(lines)):
                     line = lines[j]
                     if r'FEF3' in line[2][-7:-3]:
                         GPS_number = int(line[1])
@@ -186,22 +194,35 @@ if __name__ == "__main__":
                         data_temp_line = [str(current_num)] + line[1:]
                         if temp_number == GPS_number:
                             if current_num >= image_time:
-                                if last_visited == 0:
-                                    latitude, longitude = find_long_and_lat(data_temp_line, [0], image_time)
+                                if image_init[camera_number - 1] == 0:
+                                    # print(f"debug-{line_track[camera_number - 1]}")
+                                    # latitude, longitude = find_long_and_lat(data_temp_line, [0], image_time)
+                                    latitude, longitude = find_long_and_lat(line, [0], image_time, unix_timestamp)
+                                    # print(latitude, longitude)
+                                    last_line[camera_number - 1] = line
                                 else:
-                                    latitude, longitude = find_long_and_lat(last_line[GPS_number], data_temp_line,
-                                                                            image_time)
+                                    # latitude, longitude = find_long_and_lat(last_line[GPS_number], data_temp_line,
+                                    #                                         image_time)
+                                    latitude, longitude = find_long_and_lat(last_line[camera_number - 1], line,
+                                                                            image_time
+                                                                            , unix_timestamp)
+                                    # print(latitude, longitude)
                                 if debug:
                                     print(f"Camera {camera_number} with {GPS_number} has matched in line {j}.")
                                     print(f"Unix: {current_num}, Image Time:{image_time}, GPS Header: {line[2]}, "
                                           f"lat: {latitude}, long: {longitude}")
-                                # last_visited = j
-                                line_track = j
+                                line_track[camera_number - 1] = j
+                                # print(f"line track :{line_track[camera_number - 1]} - {last_line[camera_number - 1]}")
+                                image_init[camera_number-1] = 1
+                                # input("Press Enter to continue...")
+
                                 break
                             else:
-                                last_line[GPS_number] = data_temp_line
+                                # last_line[GPS_number] = data_temp_line
+                                last_line[camera_number - 1] = line
                     else:
                         continue
+
                 if brightness > 0.25:
                     # print(f"{file}:{brightness}. Moving to target")
                     shutil.copy2(image, new_location / image_name)
@@ -217,7 +238,7 @@ if __name__ == "__main__":
                     info_list.append(info)
                     file_log.append(info)
                 else:
-                    print(f"Dark Image : {brightness}", end='\r')
+                    print(f"{img_num}:{len(image_paths)} | Dark Image : {brightness}", end='\r')
 
             print(f'Saving report for {folder} at {report_directory / folder}.csv')
             temp_df = pd.DataFrame(file_log)
