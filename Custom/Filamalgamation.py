@@ -6,13 +6,13 @@ import glob
 file_type = 'CSV'  # 'EXCEL'/'CSV'
 
 # change to the required folder destination
-report_directory = pt.Path(r'F:\Reports')
+report_directory = pt.Path(r'D:\TempData\Report')
 
 # Location of output file
-output_folder = pt.Path(r'F:')
+output_folder = pt.Path(r'D:\TempData')
 
 # Output file name
-output_file_name = r'Overall_merged_data_07-26'
+output_file_name = r'Overall_merged_data_08-05_1'
 
 # ----------------------------------------------------------------------------------------------------------
 if file_type == 'EXCEL':
@@ -37,8 +37,8 @@ for file in data_files:
     data_list.append(data)
 
 result = pd.concat(data_list)
-result.latitude.fillna(result.lattitude, inplace=True)
-result.drop('lattitude', axis=1, inplace=True)
+# result.latitude.fillna(result.lattitude, inplace=True)
+# result.drop('lattitude', axis=1, inplace=True)
 
 if file_type == 'EXCEL':
     result.to_excel(destination)

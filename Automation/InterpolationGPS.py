@@ -94,18 +94,19 @@ if __name__ == "__main__":
 
     debug = False
     GPS_offset = 4
+    b_factor = 0.25
     print('------------Start of Program:------------\n')
 
-    Base_image_directory = pt.Path(r'F:\TestData\CanData')
+    Base_image_directory = pt.Path(r'E:\2022_DigitalAcre_FurrowVisionData')
 
-    processed_CANfile_directory = pt.Path(r'F:\TestData\CanSniff')
+    processed_CANfile_directory = pt.Path(r'E:\CanSniff\2022_DigitalAcre_FurrowVisionData')
 
-    new_images_directory = pt.Path(r'F:\TestData\GPSProcessed')
+    new_images_directory = pt.Path(r'D:\TempData\GPSProcessed')
 
-    report_directory = pt.Path(r'F:\TestData\Report')
+    report_directory = pt.Path(r'D:\TempData\Report')
 
     # Directory for test
-    Base_directory_test = pt.Path(r'F:')
+    Base_directory_test = pt.Path(r'D:\TempData\Report')
 
     # Get all sub-folder paths in the image folder
     image_folder_list = os.listdir(Base_image_directory)
@@ -223,7 +224,7 @@ if __name__ == "__main__":
                     else:
                         continue
 
-                if brightness > 0.25:
+                if brightness > b_factor:
                     # print(f"{file}:{brightness}. Moving to target")
                     shutil.copy2(image, new_location / image_name)
 
