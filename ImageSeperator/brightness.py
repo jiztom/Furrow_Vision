@@ -2,6 +2,7 @@ import os
 import sys
 from PIL import Image
 import pathlib as pt
+import shutil
 
 
 def calculate_brightness(image):
@@ -20,16 +21,21 @@ def calculate_brightness(image):
 if __name__ == '__main__':
     # file = r'D:\Furrow Vision\PythonProject_Furrow\ImageSeperator\SampleImage' \
     #                  r'\image_sensorid_1_frame_28786_ts_1652737111.3495_GPS_42.0441175000_-93.7735324000.png '
-    destination = pt.Path(r'D:\Furrow Vision\PythonProject_Furrow\ImageSeperator\SampleImage')
+    destination = pt.Path(r'E:\Furrow\Label_data')
+    side_destination = pt.Path(r'E:\Furrow\dark')
+    source = pt.Path(r'D:\TempData\LabelData')
     count = 0
-    for file in os.listdir(destination):
+    darkcount = 0
+    for num, file in enumerate(os.listdir(source)):
 
-        image = Image.open(destination / file)
+        image = Image.open(source / file)
         brightness = calculate_brightness(image)
 
-        if brightness > 0.25:
-            print(f"{file}:{brightness}. Moving to target")
+        if brightness > 0.30:
+            shutil.copy2(source / file, destination / file)
             count += 1
         else:
-            print(f"Dark Image : {brightness}")
+            darkcount += 1
+            shutil.copy2(source / file, side_destination / file)
+        print(f"{num} - Image : {brightness}| Bright images: {count} ; Dark Images: {darkcount}", end='\r')
     print(f"No of moved Imaged : {count}")
