@@ -30,6 +30,7 @@ if __name__ == '__main__':
 
         image = Image.open(source / file)
         brightness = calculate_brightness(image)
+        image_rotate = image
 
         if brightness > 0.30:
             shutil.copy2(source / file, destination / file)

@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\XML\Extracted_data_Katie_test.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

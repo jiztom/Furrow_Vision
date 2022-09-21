@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>62</id>
+      <name>Training Subset_1_Andrea</name>
+      <size>51</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2022-08-25 17:06:13.815092+00:00</created>
+      <updated>2022-09-16 21:19:33.156585+00:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>50</stop_frame>
+      <frame_filter></frame_filter>
+      <labels>
+        <label>
+          <name>Seed</name>
+          <color>#fa32b7</color>
+          <attributes>
+            <attribute>
+              <name>Trainable</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>true</default_value>
+              <values>true</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Trench</name>
+          <color>#3df53d</color>
+          <attributes>
+            <attribute>
+              <name>Residue in Trench</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>Unknown</default_value>
+              <values>Unknown
+False
+True</values>
+            </attribute>
+            <attribute>
+              <name>Is Trench collapsed</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>Unknown</default_value>
+              <values>Unknown
+False
+True</values>
+            </attribute>
+            <attribute>
+              <name>Surface Seed</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>Unknown</default_value>
+              <values>Unknown
+False
+True</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Image</name>
+          <color>#2a7dd1</color>
+          <attributes>
+            <attribute>
+              <name>Depth Reference Image</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+            <attribute>
+              <name>Image not usable</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+            <attribute>
+              <name>Residue</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>Unknown</default_value>
+              <values>Unknown
+none
+low
+medium
+high</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>44</id>
+          <start>0</start>
+          <stop>50</stop>
+          <url>http://localhost:8080/?id=44</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>admin</username>
+        <email>jiztom@iastate.edu</email>
+      </owner>
+      <assignee>
+        <username>abe_awhabiba</username>
+        <email>awhabiba@iastate.edu</email>
+      </assignee>
+    </task>
+    <dumped>2022-09-19 17:13:50.399961+00:00</dumped>
+  </meta>
+  <image id="50" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_4_frame_64893_ts_1652739898.8042_GPS_42.0441519440_-93.7726286713.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="277.45" ytl="113.58" xbr="329.80" ybr="695.37" z_order="0">
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Surface Seed">False</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Residue">high</attribute>
+    </tag>
+  </image>
+  <image id="49" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_4_frame_64830_ts_1652745361.2898_GPS_42.0440420235_-93.7751680793.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="263.62" ytl="139.26" xbr="307.08" ybr="761.56" z_order="0">
+      <attribute name="Is Trench collapsed">True</attribute>
+      <attribute name="Surface Seed">False</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Residue">low</attribute>
+    </tag>
+  </image>
+  <image id="48" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_4_frame_59107_ts_1652744173.1594_GPS_42.0440696978_-93.7717680297.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="272.51" ytl="111.60" xbr="303.13" ybr="801.07" z_order="0">
+      <attribute name="Is Trench collapsed">True</attribute>
+      <attribute name="Surface Seed">True</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+    </box>
+    <box label="Seed" occluded="0" source="manual" xtl="283.37" ytl="248.90" xbr="308.07" ybr="275.57" z_order="0">
+      <attribute name="Trainable">false</attribute>
+    </box>
+    <box label="Seed" occluded="0" source="manual" xtl="273.50" ytl="758.59" xbr="306.09" ybr="791.19" z_order="0">
+      <attribute name="Trainable">false</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Residue">low</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+    </tag>
+  </image>
+  <image id="47" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_4_frame_55946_ts_1652744120.4540_GPS_42.0440693049_-93.7734889379.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="267.57" ytl="92.83" xbr="317.95" ybr="760.57" z_order="0">
+      <attribute name="Is Trench collapsed">Unknown</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Surface Seed">Unknown</attribute>
+    </box>
+    <box label="Seed" occluded="0" source="manual" xtl="271.52" ytl="376.32" xbr="311.03" ybr="403.98" z_order="0">
+      <attribute name="Trainable">true</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Residue">low</attribute>
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+    </tag>
+  </image>
+  <image id="46" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_4_frame_54090_ts_1652740811.3858_GPS_42.0440148788_-93.7682045718.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="274.48" ytl="107.65" xbr="324.86" ybr="742.79" z_order="0">
+      <attribute name="Surface Seed">Unknown</attribute>
+      <attribute name="Is Trench collapsed">False</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+    </box>
+    <box label="Seed" occluded="0" source="manual" xtl="266.58" ytl="472.14" xbr="301.15" ybr="506.71" z_order="0">
+      <attribute name="Trainable">true</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Residue">low</attribute>
+    </tag>
+  </image>
+  <image id="45" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_4_frame_51616_ts_1652740770.1353_GPS_42.0440142981_-93.7695521573.png" width="620" height="808">
+    <box label="Seed" occluded="0" source="manual" xtl="278.44" ytl="339.78" xbr="312.02" ybr="387.19" z_order="0">
+      <attribute name="Trainable">true</attribute>
+    </box>
+    <box label="Trench" occluded="0" source="manual" xtl="273.50" ytl="92.83" xbr="317.95" ybr="763.53" z_order="0">
+      <attribute name="Residue in Trench">False</attribute>
+      <attribute name="Is Trench collapsed">False</attribute>
+      <attribute name="Surface Seed">Unknown</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Residue">none</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+    </tag>
+  </image>
+  <image id="44" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_4_frame_36123_ts_1652746452.6866_GPS_42.0439054521_-93.7752571353.png" width="620" height="808">
+    <box label="Seed" occluded="0" source="manual" xtl="295.23" ytl="172.84" xbr="318.93" ybr="193.59" z_order="0">
+      <attribute name="Trainable">true</attribute>
+    </box>
+    <box label="Seed" occluded="0" source="manual" xtl="311.03" ytl="561.04" xbr="342.64" ybr="593.63" z_order="0">
+      <attribute name="Trainable">false</attribute>
+    </box>
+    <box label="Trench" occluded="0" source="manual" xtl="285.35" ytl="101.72" xbr="332.76" ybr="738.84" z_order="0">
+      <attribute name="Surface Seed">True</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">medium</attribute>
+    </tag>
+  </image>
+  <image id="43" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_4_frame_32202_ts_1652744817.2622_GPS_42.0439321481_-93.7702068573.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="269.54" ytl="97.77" xbr="312.02" ybr="738.84" z_order="0">
+      <attribute name="Is Trench collapsed">Unknown</attribute>
+      <attribute name="Surface Seed">Unknown</attribute>
+      <attribute name="Residue in Trench">False</attribute>
+    </box>
+    <box label="Seed" occluded="0" source="manual" xtl="273.50" ytl="417.81" xbr="299.18" ybr="459.30" z_order="0">
+      <attribute name="Trainable">true</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">none</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+    </tag>
+  </image>
+  <image id="42" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_4_frame_32177_ts_1652741538.7237_GPS_42.0441798543_-93.7717260442.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="258.68" ytl="115.55" xbr="312.02" ybr="746.74" z_order="0">
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+      <attribute name="Surface Seed">False</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">high</attribute>
+    </tag>
+  </image>
+  <image id="41" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_4_frame_31976_ts_1652737164.5411_GPS_42.0440973298_-93.7717980396.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="274.48" ytl="99.75" xbr="312.02" ybr="735.87" z_order="0">
+      <attribute name="Surface Seed">False</attribute>
+      <attribute name="Residue in Trench">False</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">low</attribute>
+    </tag>
+  </image>
+  <image id="40" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_4_frame_29308_ts_1652744769.0087_GPS_42.0439327192_-93.7717832659.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="272.51" ytl="95.80" xbr="319.92" ybr="763.53" z_order="0">
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Surface Seed">True</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+    </box>
+    <box label="Seed" occluded="0" source="manual" xtl="288.31" ytl="454.36" xbr="312.02" ybr="496.83" z_order="0">
+      <attribute name="Trainable">true</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">low</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+    </tag>
+  </image>
+  <image id="39" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_4_frame_21609_ts_1652743547.9311_GPS_42.0438776354_-93.7707211750.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="273.50" ytl="97.77" xbr="315.97" ybr="737.85" z_order="0">
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+      <attribute name="Surface Seed">False</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Residue">low</attribute>
+      <attribute name="Image not usable">false</attribute>
+    </tag>
+  </image>
+  <image id="38" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_4_frame_1672_ts_1652744308.2159_GPS_42.0440695559_-93.7673498976.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="283.37" ytl="114.56" xbr="316.96" ybr="761.56" z_order="0">
+      <attribute name="Is Trench collapsed">Unknown</attribute>
+      <attribute name="Surface Seed">False</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">low</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+    </tag>
+  </image>
+  <image id="37" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_4_frame_13444_ts_1652743411.7909_GPS_42.0438780813_-93.7751728005.png" width="620" height="808">
+    <box label="Seed" occluded="0" source="manual" xtl="293.25" ytl="185.68" xbr="319.92" ybr="204.45" z_order="0">
+      <attribute name="Trainable">true</attribute>
+    </box>
+    <box label="Trench" occluded="0" source="manual" xtl="273.50" ytl="120.49" xbr="318.93" ybr="743.78" z_order="0">
+      <attribute name="Surface Seed">Unknown</attribute>
+      <attribute name="Is Trench collapsed">Unknown</attribute>
+      <attribute name="Residue in Trench">False</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">none</attribute>
+    </tag>
+  </image>
+  <image id="36" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_4_frame_12707_ts_1652742306.7952_GPS_42.0439872722_-93.7695198611.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="269.54" ytl="107.65" xbr="327.82" ybr="781.31" z_order="0">
+      <attribute name="Is Trench collapsed">True</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Surface Seed">True</attribute>
+    </box>
+    <box label="Seed" occluded="0" source="manual" xtl="283.37" ytl="650.92" xbr="324.86" ybr="682.53" z_order="0">
+      <attribute name="Trainable">true</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">low</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+    </tag>
+  </image>
+  <image id="35" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_4_frame_10578_ts_1652746026.7582_GPS_42.0440419511_-93.7701781639.png" width="620" height="808">
+    <box label="Seed" occluded="0" source="manual" xtl="299.08" ytl="307.18" xbr="321.90" ybr="336.81" z_order="0">
+      <attribute name="Trainable">false</attribute>
+    </box>
+    <box label="Trench" occluded="0" source="manual" xtl="287.36" ytl="123.08" xbr="334.78" ybr="726.41" z_order="0">
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+      <attribute name="Surface Seed">Unknown</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">high</attribute>
+    </tag>
+  </image>
+  <image id="34" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_3_frame_46074_ts_1652740677.7219_GPS_42.0440214624_-93.7725747353.png" width="620" height="808">
+    <box label="Seed" occluded="0" source="manual" xtl="290.29" ytl="307.18" xbr="321.90" ybr="336.81" z_order="0">
+      <attribute name="Trainable">true</attribute>
+    </box>
+    <box label="Trench" occluded="0" source="manual" xtl="276.46" ytl="121.48" xbr="334.74" ybr="758.59" z_order="0">
+      <attribute name="Surface Seed">True</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">high</attribute>
+    </tag>
+  </image>
+  <image id="33" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_3_frame_45547_ts_1652746609.8155_GPS_42.0439113770_-93.7701230718.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="280.41" ytl="168.89" xbr="318.93" ybr="737.85" z_order="0">
+      <attribute name="Surface Seed">False</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Residue">medium</attribute>
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+    </tag>
+  </image>
+  <image id="32" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_3_frame_42415_ts_1652746557.5936_GPS_42.0439115934_-93.7718301197.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="269.54" ytl="120.49" xbr="331.77" ybr="784.28" z_order="0">
+      <attribute name="Surface Seed">False</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Residue">high</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+    </tag>
+  </image>
+  <image id="31" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_3_frame_40216_ts_1652741672.7538_GPS_42.0441859651_-93.7673446181.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="261.60" ytl="122.47" xbr="331.77" ybr="725.01" z_order="0">
+      <attribute name="Surface Seed">False</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">high</attribute>
+    </tag>
+  </image>
+  <image id="30" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_3_frame_37524_ts_1652744905.9862_GPS_42.0439390848_-93.7673023621.png" width="620" height="808">
+    <tag label="Image" source="manual">
+      <attribute name="Residue">Unknown</attribute>
+      <attribute name="Image not usable">true</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+    </tag>
+  </image>
+  <image id="29" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_3_frame_30614_ts_1652741512.6545_GPS_42.0441861681_-93.7725782249.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="277.45" ytl="110.61" xbr="319.92" ybr="776.37" z_order="0">
+      <attribute name="Surface Seed">Unknown</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+    </box>
+    <box label="Seed" occluded="0" source="manual" xtl="283.37" ytl="544.25" xbr="309.06" ybr="590.67" z_order="0">
+      <attribute name="Trainable">false</attribute>
+    </box>
+    <box label="Seed" occluded="0" source="manual" xtl="292.26" ytl="175.81" xbr="319.92" ybr="209.39" z_order="0">
+      <attribute name="Trainable">false</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Residue">low</attribute>
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+    </tag>
+  </image>
+  <image id="28" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_3_frame_29326_ts_1652744769.2959_GPS_42.0439392356_-93.7717754525.png" width="620" height="808">
+    <tag label="Image" source="manual">
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">true</attribute>
+      <attribute name="Residue">Unknown</attribute>
+    </tag>
+  </image>
+  <image id="27" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_3_frame_26163_ts_1652743623.8514_GPS_42.0438846612_-93.7682274555.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="287.33" ytl="132.34" xbr="333.75" ybr="780.32" z_order="0">
+      <attribute name="Surface Seed">Unknown</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+    </box>
+    <box label="Seed" occluded="0" source="manual" xtl="297.20" ytl="170.87" xbr="325.85" ybr="196.55" z_order="0">
+      <attribute name="Trainable">false</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Residue">medium</attribute>
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+    </tag>
+  </image>
+  <image id="26" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_3_frame_22677_ts_1652743565.7272_GPS_42.0438841856_-93.7701356908.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="286.34" ytl="149.14" xbr="329.80" ybr="777.36" z_order="0">
+      <attribute name="Surface Seed">Unknown</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+    </box>
+    <box label="Seed" occluded="0" source="manual" xtl="289.30" ytl="272.61" xbr="323.87" ybr="299.28" z_order="0">
+      <attribute name="Trainable">true</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Residue">medium</attribute>
+    </tag>
+  </image>
+  <image id="25" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_3_frame_216_ts_1652744283.9268_GPS_42.0440763749_-93.7681477362.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="260.66" ytl="121.48" xbr="305.11" ybr="777.36" z_order="0">
+      <attribute name="Is Trench collapsed">Unknown</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Surface Seed">True</attribute>
+    </box>
+    <box label="Seed" occluded="0" source="manual" xtl="268.60" ytl="514.61" xbr="311.03" ybr="568.94" z_order="0">
+      <attribute name="Trainable">true</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Residue">low</attribute>
+      <attribute name="Image not usable">false</attribute>
+    </tag>
+  </image>
+  <image id="24" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_3_frame_21488_ts_1652743545.9022_GPS_42.0438841223_-93.7707930458.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="282.39" ytl="150.12" xbr="318.93" ybr="781.31" z_order="0">
+      <attribute name="Surface Seed">True</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+    </box>
+    <box label="Seed" occluded="0" source="manual" xtl="291.28" ytl="510.66" xbr="316.96" ybr="550.17" z_order="0">
+      <attribute name="Trainable">false</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Residue">low</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+    </tag>
+  </image>
+  <image id="23" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_3_frame_10536_ts_1652742270.5867_GPS_42.0439940664_-93.7707134441.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="280.41" ytl="139.26" xbr="319.92" ybr="698.34" z_order="0">
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Surface Seed">False</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">low</attribute>
+    </tag>
+  </image>
+  <image id="22" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_2_frame_50656_ts_1652746695.0037_GPS_42.0439185996_-93.7673225952.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="286.34" ytl="113.58" xbr="328.81" ybr="730.93" z_order="0">
+      <attribute name="Surface Seed">False</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Residue">medium</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+    </tag>
+  </image>
+  <image id="21" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_2_frame_49071_ts_1652746668.5761_GPS_42.0439186725_-93.7681924808.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="285.35" ytl="121.48" xbr="332.76" ybr="758.59" z_order="0">
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+      <attribute name="Surface Seed">Unknown</attribute>
+    </box>
+    <box label="Seed" occluded="0" source="manual" xtl="291.28" ytl="291.38" xbr="315.97" ybr="318.04" z_order="0">
+      <attribute name="Trainable">false</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">medium</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+    </tag>
+  </image>
+  <image id="20" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_2_frame_37528_ts_1652744906.0594_GPS_42.0439459484_-93.7672956926.png" width="620" height="808">
+    <box label="Seed" occluded="0" source="manual" xtl="295.23" ytl="517.58" xbr="328.81" ybr="549.18" z_order="0">
+      <attribute name="Trainable">false</attribute>
+    </box>
+    <box label="Trench" occluded="0" source="manual" xtl="278.44" ytl="111.60" xbr="333.75" ybr="684.51" z_order="0">
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+      <attribute name="Surface Seed">True</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">medium</attribute>
+    </tag>
+  </image>
+  <image id="19" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_2_frame_35852_ts_1652744878.1146_GPS_42.0439462622_-93.7682175077.png" width="620" height="808">
+    <tag label="Image" source="manual">
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">true</attribute>
+      <attribute name="Residue">Unknown</attribute>
+    </tag>
+  </image>
+  <image id="18" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_2_frame_35102_ts_1652737216.6619_GPS_42.0441106016_-93.7700981766.png" width="620" height="808">
+    <tag label="Image" source="manual">
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">Unknown</attribute>
+      <attribute name="Depth Reference Image">true</attribute>
+    </tag>
+  </image>
+  <image id="17" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_2_frame_26203_ts_1652743624.5286_GPS_42.0438913825_-93.7682012530.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="289.30" ytl="107.65" xbr="331.78" ybr="744.76" z_order="0">
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Surface Seed">True</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+    </box>
+    <box label="Seed" occluded="0" source="manual" xtl="296.21" ytl="304.22" xbr="319.92" ybr="335.82" z_order="0">
+      <attribute name="Trainable">true</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Residue">low</attribute>
+      <attribute name="Image not usable">false</attribute>
+    </tag>
+  </image>
+  <image id="16" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_2_frame_1772_ts_1652744309.8770_GPS_42.0440832524_-93.7672937015.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="288.31" ytl="108.64" xbr="323.87" ybr="761.56" z_order="0">
+      <attribute name="Surface Seed">True</attribute>
+      <attribute name="Is Trench collapsed">False</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+    </box>
+    <box label="Seed" occluded="0" source="manual" xtl="288.31" ytl="337.80" xbr="318.93" ybr="367.43" z_order="0">
+      <attribute name="Trainable">true</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">low</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+    </tag>
+  </image>
+  <image id="15" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_2_frame_15784_ts_1652746113.5608_GPS_42.0440556896_-93.7673273229.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="287.33" ytl="151.11" xbr="326.84" ybr="746.74" z_order="0">
+      <attribute name="Is Trench collapsed">True</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Surface Seed">False</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">medium</attribute>
+    </tag>
+  </image>
+  <image id="14" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_2_frame_13422_ts_1652743411.4182_GPS_42.0438916520_-93.7751854467.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="285.35" ytl="107.65" xbr="322.89" ybr="756.62" z_order="0">
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Surface Seed">True</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+    </box>
+    <box label="Seed" occluded="0" source="manual" xtl="289.30" ytl="113.58" xbr="310.04" ybr="146.17" z_order="0">
+      <attribute name="Trainable">false</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">medium</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+    </tag>
+  </image>
+  <image id="13" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_1_frame_64736_ts_1652745359.7182_GPS_42.0440624416_-93.7752200198.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="273.50" ytl="140.25" xbr="321.90" ybr="772.42" z_order="0">
+      <attribute name="Surface Seed">False</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">medium</attribute>
+    </tag>
+  </image>
+  <image id="12" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_1_frame_61104_ts_1652744206.4525_GPS_42.0440903943_-93.7706865063.png" width="620" height="808">
+    <tag label="Image" source="manual">
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">true</attribute>
+      <attribute name="Residue">Unknown</attribute>
+    </tag>
+  </image>
+  <image id="11" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_1_frame_58947_ts_1652744170.4886_GPS_42.0440902520_-93.7718547390.png" width="620" height="808">
+    <tag label="Image" source="manual">
+      <attribute name="Residue">Unknown</attribute>
+      <attribute name="Image not usable">true</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+    </tag>
+  </image>
+  <image id="10" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_1_frame_49452_ts_1652740734.0496_GPS_42.0440352485_-93.7707405043.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="270.53" ytl="160.99" xbr="310.04" ybr="753.65" z_order="0">
+      <attribute name="Is Trench collapsed">True</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Surface Seed">False</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Residue">low</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+    </tag>
+  </image>
+  <image id="9" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_1_frame_49015_ts_1652746667.6398_GPS_42.0439256733_-93.7682220326.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="274.48" ytl="158.03" xbr="327.82" ybr="741.80" z_order="0">
+      <attribute name="Is Trench collapsed">True</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Surface Seed">Unknown</attribute>
+    </box>
+    <box label="Seed" occluded="0" source="manual" xtl="273.50" ytl="125.43" xbr="294.24" ybr="145.18" z_order="0">
+      <attribute name="Trainable">false</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">low</attribute>
+    </tag>
+  </image>
+  <image id="8" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_1_frame_46502_ts_1652746625.7389_GPS_42.0439252321_-93.7695928831.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="277.45" ytl="155.06" xbr="321.90" ybr="772.42" z_order="0">
+      <attribute name="Is Trench collapsed">True</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Surface Seed">False</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Residue">medium</attribute>
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+    </tag>
+  </image>
+  <image id="7" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_1_frame_44431_ts_1652746591.2078_GPS_42.0439257360_-93.7707340880.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="271.52" ytl="166.92" xbr="329.80" ybr="768.47" z_order="0">
+      <attribute name="Surface Seed">False</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Residue">medium</attribute>
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+    </tag>
+  </image>
+  <image id="6" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_1_frame_41252_ts_1652740597.3256_GPS_42.0440355255_-93.7752018761.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="273.50" ytl="142.22" xbr="314.98" ybr="765.51" z_order="0">
+      <attribute name="Residue in Trench">False</attribute>
+      <attribute name="Surface Seed">False</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">none</attribute>
+    </tag>
+  </image>
+  <image id="5" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_1_frame_40978_ts_1652746533.6338_GPS_42.0439256550_-93.7726067071.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="273.50" ytl="189.63" xbr="318.93" ybr="768.47" z_order="0">
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+      <attribute name="Surface Seed">False</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Residue">medium</attribute>
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+    </tag>
+  </image>
+  <image id="4" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_1_frame_27760_ts_1652744743.1941_GPS_42.0439532515_-93.7726209995.png" width="620" height="808">
+    <tag label="Image" source="manual">
+      <attribute name="Image not usable">true</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Residue">Unknown</attribute>
+    </tag>
+  </image>
+  <image id="3" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_1_frame_22025_ts_1652739184.0341_GPS_42.0439805576_-93.7717860015.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="277.45" ytl="143.21" xbr="317.95" ybr="770.45" z_order="0">
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+      <attribute name="Surface Seed">False</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Residue">low</attribute>
+      <attribute name="Image not usable">false</attribute>
+    </tag>
+  </image>
+  <image id="2" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_1_frame_15804_ts_1652746113.8914_GPS_42.0440626566_-93.7673173107.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="278.44" ytl="115.55" xbr="317.95" ybr="787.24" z_order="0">
+      <attribute name="Is Trench collapsed">Unknown</attribute>
+      <attribute name="Surface Seed">Unknown</attribute>
+      <attribute name="Residue in Trench">Unknown</attribute>
+    </box>
+    <box label="Seed" occluded="0" source="manual" xtl="293.25" ytl="198.52" xbr="307.08" ybr="217.29" z_order="0">
+      <attribute name="Trainable">false</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Residue">medium</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+    </tag>
+  </image>
+  <image id="1" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_1_frame_15779_ts_1652739079.8904_GPS_42.0439804315_-93.7751882893.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="278.44" ytl="173.83" xbr="320.91" ybr="768.47" z_order="0">
+      <attribute name="Residue in Trench">True</attribute>
+      <attribute name="Surface Seed">True</attribute>
+      <attribute name="Is Trench collapsed">True</attribute>
+    </box>
+    <box label="Seed" occluded="0" source="manual" xtl="283.37" ytl="178.77" xbr="303.13" ybr="197.54" z_order="0">
+      <attribute name="Trainable">true</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+      <attribute name="Residue">none</attribute>
+    </tag>
+  </image>
+  <image id="0" name="2022_DigitalAcre/Split_Images/Dataset_1/image_sensorid_1_frame_13478_ts_1652743412.3535_GPS_42.0438985767_-93.7751526016.png" width="620" height="808">
+    <box label="Trench" occluded="0" source="manual" xtl="258.68" ytl="131.36" xbr="314.00" ybr="758.59" z_order="0">
+      <attribute name="Is Trench collapsed">True</attribute>
+      <attribute name="Surface Seed">False</attribute>
+      <attribute name="Residue in Trench">True</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Residue">medium</attribute>
+      <attribute name="Depth Reference Image">false</attribute>
+      <attribute name="Image not usable">false</attribute>
+    </tag>
+  </image>
+</annotations>
