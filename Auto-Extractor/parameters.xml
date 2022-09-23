@@ -4,9 +4,9 @@
   <head>
     <title>Parameters</title>
     <dateCreated>2020-12-14 00:05:37.482425</dateCreated>
-    <dateModified>2022-09-13 18:27:36.686075</dateModified>
+    <dateModified>2022-09-22 16:34:13.465783</dateModified>
   </head>
-  <Source>T:/current/Projects/Deere/CPSI/2022/Digital Acre/2022_calibrationData</Source>
+  <Source>E:\Temp</Source>
   <Destination>D:/Furrow Vision/PythonProject_Furrow/Test1.csv</Destination>
   <XML>D:/Furrow Vision/PythonProject_Furrow/ImageCanExtractionFurrowVision_0713.xml</XML>
   <ConsolePlayer>C:/Program Files/RoboticsWorkbench/bin/ConsolePlayer.exe</ConsolePlayer>
