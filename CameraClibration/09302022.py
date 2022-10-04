@@ -4,9 +4,12 @@ import cv2
 import numpy as np
 import os
 import glob
+import json
+import scipy.io as sio
 
 # Defining the dimensions of checkerboard
-CHECKERBOARD = (5, 7)
+# CHECKERBOARD = (5, 7)
+CHECKERBOARD = (10, 10)
 criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.001)
 
 # Creating vector to store vectors of 3D points for each checkerboard image
@@ -20,7 +23,9 @@ objp[0, :, :2] = np.mgrid[0:CHECKERBOARD[0], 0:CHECKERBOARD[1]].T.reshape(-1, 2)
 prev_img_shape = None
 
 # Extracting path of individual image stored in a given directory
-images = glob.glob('D:\Furrow Vision\PythonProject_Furrow\CameraClibration\Images\*.png')
+folder = r'D:\Furrow Vision\PythonProject_Furrow\CameraClibration\Sheild'
+images = glob.glob(f'{folder}\*.png')
+
 for fname in images:
     img = cv2.imread(fname)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -45,7 +50,7 @@ for fname in images:
         img = cv2.drawChessboardCorners(img, CHECKERBOARD, corners2, ret)
 
     cv2.imshow('img', img)
-    cv2.waitKey(0)
+    cv2.waitKey(300)
 
 cv2.destroyAllWindows()
 
@@ -67,3 +72,10 @@ print("rvecs : \n")
 print(rvecs)
 print("tvecs : \n")
 print(tvecs)
+
+data = {"camera_matrix": mtx, "dist_coeff": dist, "rvecs": rvecs, "tvecs": tvecs}
+
+# with open(fname, "w") as f:
+#     json.dump(data, f)
+
+sio.savemat('data.mat', data)
