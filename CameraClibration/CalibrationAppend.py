@@ -6,10 +6,14 @@ import pathlib as pt
 import pandas as pd
 import scipy.io as sio
 
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.linear_model import LinearRegression
+
 ground_truth = 30
 fig_show = False
 # Defining the dimensions of checkerboard
 CHECKERBOARD = (5, 7)
+
 data = sio.loadmat('data.mat')
 mtx, dist, rvecs, tvecs = data['camera_matrix'], data['dist_coeff'], data['rvecs'], data['tvecs']
 
@@ -26,8 +30,8 @@ criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.001)
 # Extracting path of individual image stored in a given directory
 images = glob.glob(r'D:\Furrow Vision\PythonProject_Furrow\CameraClibration\Images\*.png')
 
-data = []
-
+data_x = []
+data_y = []
 for fname in images:
     name = pt.Path(fname)
     img = cv2.imread(fname)
@@ -76,26 +80,88 @@ for fname in images:
                              'image_source': name.stem,
                              'diff': abs(X[row][col] - X[row][col + 1]),
                              'ground': ground_truth}
-                dict_temp['inchPerPixel'] = ground_truth / dict_temp['diff']
-                data.append(dict_temp)
+                dict_temp['mmPerPixel'] = ground_truth / dict_temp['diff']
+                data_x.append(dict_temp)
+        for col in range(Y.shape[1]):
+            x_mean = int(np.median(X[:, col]))
+            y_mean = int(np.median(Y[col]))
+            # y_mean = 100
+            for row in range(Y.shape[0]-1):
+                dict_y = {
+                    'Y1': Y[row][col],
+                    'Y2': Y[row+1][col],
+                    'X': x_mean,
+                    'Y': y_mean,
+                    'diff': abs(Y[row][col] - Y[row+1][col]),
+                    'ground': ground_truth,
+                    }
+                dict_y['mmPerPixel'] = ground_truth / dict_y['diff']
+                data_y.append(dict_y)
         if fig_show:
             temp_img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
             plt.figure(figsize=(10, 10))
             plt.imshow(temp_img)
             plt.show()
 
-df = pd.DataFrame(data)
-df.to_excel("Calibration_Data.xlsx")
+df_x = pd.DataFrame(data_x)
+df_y = pd.DataFrame(data_y)
+# df.to_excel("Calibration_Data.xlsx")
 
-x, y = df['Y'], df['inchPerPixel']
-# create scatter plot
-plt.scatter(x, y)
+xx, xy = df_x['Y'], df_x['mmPerPixel']
 
-# calculate equation for trend-line
-z = np.polyfit(x, y, 2)
-p = np.poly1d(z)
+yx, yy = df_y['Y'], df_y['mmPerPixel']
+# # create scatter plot
+# plt.scatter(x, y)
+#
+# # calculate equation for trend-line
+# z = np.polyfit(x, y, 2)
+# p = np.poly1d(z)
+#
+# # add trend-line to plot
+# plt.plot(x, p(x))
+#
+# plt.show()
 
-# add trend-line to plot
-plt.plot(x, p(x))
+poly = PolynomialFeatures(degree=4)
+x_re = xx.values.reshape((-1, 1))
+X_poly = poly.fit_transform(x_re)
+poly.fit(X_poly, xy)
+lin2 = LinearRegression()
+lin2.fit(X_poly, xy)
+
+# Visualising the Polynomial Regression results
+plt.scatter(x_re, xy, color='blue')
+
+plt.plot(x_re, lin2.predict(poly.fit_transform(x_re)), color='red')
+plt.title('X Polynomial Regression')
+plt.xlabel('Y position')
+plt.ylabel('mmPerPixel')
 
 plt.show()
+# ------------
+poly = PolynomialFeatures(degree=4)
+y_re = yx.values.reshape((-1, 1))
+Y_poly = poly.fit_transform(y_re)
+poly.fit(Y_poly, yy)
+lin2 = LinearRegression()
+lin2.fit(Y_poly, yy)
+
+# Visualising the Polynomial Regression results
+plt.scatter(y_re, yy, color='blue')
+
+plt.plot(y_re, lin2.predict(poly.fit_transform(y_re)), color='red')
+plt.title('Y Polynomial Regression')
+plt.xlabel('X position')
+plt.ylabel('mmPerPixel')
+
+plt.show()
+
+
+# import pickle
+#
+# save_name = 'Linear_reg.pkl'
+# with open(save_name, 'wb') as file:
+#     pickle.dump(lin2, file)
+#
+# with open(save_name, 'rb') as file:
+#     pickle_model = pickle.load(file)

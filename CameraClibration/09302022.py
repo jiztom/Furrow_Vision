@@ -8,8 +8,8 @@ import json
 import scipy.io as sio
 
 # Defining the dimensions of checkerboard
-# CHECKERBOARD = (5, 7)
-CHECKERBOARD = (10, 10)
+CHECKERBOARD = (5, 7)
+# CHECKERBOARD = (5, 5)
 criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.001)
 
 # Creating vector to store vectors of 3D points for each checkerboard image
@@ -23,7 +23,7 @@ objp[0, :, :2] = np.mgrid[0:CHECKERBOARD[0], 0:CHECKERBOARD[1]].T.reshape(-1, 2)
 prev_img_shape = None
 
 # Extracting path of individual image stored in a given directory
-folder = r'D:\Furrow Vision\PythonProject_Furrow\CameraClibration\Sheild'
+folder = r'D:\Furrow Vision\PythonProject_Furrow\CameraClibration\Images'
 images = glob.glob(f'{folder}\*.png')
 
 for fname in images:
@@ -32,7 +32,8 @@ for fname in images:
     # Find the chess board corners
     # If desired number of corners are found in the image then ret = true
     ret, corners = cv2.findChessboardCorners(gray, CHECKERBOARD,
-                                             cv2.CALIB_CB_ADAPTIVE_THRESH + cv2.CALIB_CB_FAST_CHECK + cv2.CALIB_CB_NORMALIZE_IMAGE)
+                                             cv2.CALIB_CB_ADAPTIVE_THRESH + cv2.CALIB_CB_FAST_CHECK +
+                                             cv2.CALIB_CB_NORMALIZE_IMAGE)
 
     """
     If desired number of corner are detected,
@@ -42,7 +43,7 @@ for fname in images:
     if ret:
         objpoints.append(objp)
         # refining pixel coordinates for given 2d points.
-        corners2 = cv2.cornerSubPix(gray, corners, (11, 11), (-1, -1), criteria)
+        corners2 = cv2.cornerSubPix(gray, corners, (9, 9), (-1, -1), criteria)
 
         imgpoints.append(corners2)
 

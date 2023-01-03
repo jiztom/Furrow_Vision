@@ -1,0 +1,3 @@
+Center Point in image with respect to the line = [310,382]
+Center Point in image with respect to the line = [310,378]
+Center Point in image with respect to the line = [310,376]

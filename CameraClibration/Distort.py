@@ -5,9 +5,10 @@ import scipy.io as sio
 data = sio.loadmat('data.mat')
 mtx, dist, rvecs, tvecs = data['camera_matrix'], data['dist_coeff'], data['rvecs'], data['tvecs']
 
+# Chnage this
 img = cv2.imread(
-    'D:\Furrow Vision\PythonProject_Furrow\CameraClibration\Images\image_sensorid_1_'
-    'frame_43345_ts_1663090740.5094.png')
+    'D:\Furrow Vision\PythonProject_Furrow\CameraClibration\Sheild\
+    image_sensorid_1_frame_28921_ts_1664211935.5253.png')
 
 h, w = img.shape[:2]
 newcameramtx, roi = cv2.getOptimalNewCameraMatrix(mtx, dist, (w, h), 1, (w, h))

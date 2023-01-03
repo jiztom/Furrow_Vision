@@ -112,7 +112,7 @@ def main():
     # args = parse_args()
     temp_anno = []
     args = ArgumentTemp()
-    dir_create(args.output_dir)
+    # dir_create(args.output_dir)
 
     folders = [f for f in os.listdir(args.image_dir)]
 
@@ -134,11 +134,11 @@ class ArgumentTemp:
     # image_dir = path.Path(r'C:\Users\abe_felipec\Desktop\Annotations\Unzipped')
     image_dir = path.Path(r'T:\current\Projects\Deere\CPSI\2021\Digital Acre\DigitalAcre_DataSet_11302021\DigitalAcre_DataSet')
     # cvat_xml = r'D:\Jiztom\Machine Learning Practice\imageautolabeller\Code\Data Extraction\Training_jiztom\annotations.xml'
-    output_dir = path.Path(r'C:\Users\abe_felipec\Desktop\Data')
+    # output_dir = path.Path(r'C:\Users\abe_felipec\Desktop\Data')
     scale_factor = 1.0
 
 
 temp = main()
 df = pd.DataFrame(temp)
-df.to_csv('Data_01312022.csv')
-df.to_excel('Data_01312022.xlsx')
+df.to_csv('Data_11012022.csv')
+df.to_excel('Data_11012022.xlsx')
